@@ -6,7 +6,7 @@ on:
       - main   # or master (match your repo)
 
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
 
     steps:
